@@ -1,18 +1,17 @@
 {
-  "name": "normalize.css",
+  "name": "normalize.json",
   "version": "3.0.3",
-  "description": "Normalize.css as a node packaged module",
-  "style": "normalize.css",
-  "files": [
-    "LICENSE.md",
-    "normalize.css"
-  ],
-  "homepage": "http://necolas.github.io/normalize.css",
+  "description": "Normalize.css as a node packaged module and converted to json for use with JSS",
+  "homepage": "https://github.com/dwighthouse/normalize.json",
   "repository": {
     "type": "git",
-    "url": "git://github.com/necolas/normalize.css.git"
+    "url": "git://github.com/dwighthouse/normalize.css.git"
   },
-  "main": "normalize.css",
-  "author": "Nicolas Gallagher",
-  "license": "MIT"
+  "main": "lib/normalize.json",
+  "author": "Nicolas Gallagher and Dwight House",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jsonminify": "^1.0.0"
+  }
 }
